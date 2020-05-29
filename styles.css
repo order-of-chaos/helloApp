@@ -40,7 +40,17 @@ body {
 
 .privacy {
   grid-area: privacy;
+  display: grid;
+  grid-template: "."".";
   justify-self: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.privacy a {
+  color: white;
 }
 
 .apps-buttons {
@@ -48,7 +58,7 @@ body {
   display: grid;
   grid-template: ". .";
   justify-self: center;
-  gap: 5px;
+  gap: 20px;
 }
 
 .store-button {
