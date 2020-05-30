@@ -41,7 +41,7 @@ body {
 .privacy {
   grid-area: privacy;
   display: grid;
-  grid-template: "."".";
+  grid-template: "." ".";
   justify-self: center;
   align-items: center;
   text-align: center;
@@ -59,6 +59,9 @@ body {
   grid-template: ". .";
   justify-self: center;
   gap: 20px;
+}
+.google {
+  opacity: 0.5;
 }
 
 .store-button {
